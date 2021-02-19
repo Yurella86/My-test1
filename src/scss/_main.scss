@@ -1,0 +1,331 @@
+// Write your styles here
+body {
+    margin: 0;
+}
+
+.main-wrapper header {
+    width: 1452px;
+    height: 920px;
+    background: url('./../img/header_background_v1.jpg')0 -85px /100% 118% no-repeat;
+}
+
+.top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    /*border:solid 1px red;*/
+}
+
+.logo img{
+    width: 231px;
+}
+
+
+.top-wrapper nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    width: 848px;
+    height: 50px;
+    margin-right: 12px;
+
+}
+
+.top-wrapper nav a{
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    padding-top: 19px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.top-wrapper nav a:nth-last-child(2){
+    border-left: solid 2px rgba(182, 193, 197, 0.808);
+    border-right: solid 2px rgba(182, 193, 197, 0.808);
+}
+
+section {
+    height: 200px;
+    margin: 240px auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+section h1{
+    margin-bottom: 0;
+    padding-top: 9px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+.btn{
+    
+    left: 988px;
+    position: absolute;
+    width: 200px;
+    height: 39px;
+    border-radius: inherit;
+    background-color: rgb(21, 190, 196);
+    color: white;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+
+} 
+
+.btn-top {
+    left: 627px;
+    margin-top: 16px;
+    line-height: 40px;
+    padding: 3px 0px;
+    font-size: 14px;
+    
+    background-color: #35afaf;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+
+.main-wrapper main{
+    width: 960px;
+    margin-left: 247px;
+}
+
+.toolbar {
+    height: 40px;
+    text-align: end;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.toolbar input{
+    height: 32px;
+    width: 174px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.post-list {
+    margin: 0 auto;
+    height: 100%;
+}
+
+.post-list h1{
+
+    margin: 0 auto;
+    color: black;
+    text-align: end;
+    font-size: 24px;
+    padding-top: 14px;
+    padding-right: 2px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post-list article{
+    display: flex;
+    margin: 0 auto;
+    height: 302px;
+    margin-bottom: 20px;
+    background-color: rgba(209, 209, 209, 0.363);
+}
+
+.post-list article img{
+    padding: 10px;
+}
+
+
+.post{
+    color: black;
+    position: relative;
+}
+
+
+.post-description {
+    width: 630px;
+    text-align: left;
+    font-size: 12px;
+    padding: 17px 0px 8px 2px;
+    border-bottom:solid 1px rgb(2, 2, 2);
+    color: rgb(177, 0, 0);
+    margin-left: 0;
+    font-family: 'Cantarell', sans-seri
+}
+
+.post h3{
+    color: rgb(21, 190, 196);
+    margin: 0px auto;
+    text-align: left;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+}
+
+.post p {
+    text-align: left;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 30px;
+    margin-bottom: 20px; 
+    font-family: 'Cantarell', sans-seri;
+    letter-spacing: -1px;
+    word-spacing: 0.5px;
+
+
+}
+
+article div{
+    margin: 0px auto;
+}
+ 
+
+#about{
+    margin: 0 auto;
+    color: black;
+    display: block;
+    height: 100%;
+}
+
+#about h1{
+    text-align: end;
+    text-transform: uppercase;
+    font-size: 23px;
+    margin: 0px auto;
+    padding-top: 40px;
+    padding-right: 15px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#about p{
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: left;
+    padding: 0px 10px 0 13px;
+    margin-bottom: 25px;
+    line-height: 22px;
+
+}
+
+#about img{
+    width: 97%;
+}
+
+#contact {
+    margin-top: 0px;
+    color: black;
+    padding-top: 2px;
+    height: 100px;
+    font-size: 18px;
+}
+
+#contact h1 {
+    text-align: right;
+    padding-top: 36px;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+#contact h4 {
+    margin: 2px auto;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+.input_form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    text-align: left;
+    width: 468px;
+}
+
+.email {
+    text-align: right;
+    width: 485px;
+}
+.name h5 {
+    margin: 0px auto;
+    text-align: right; 
+    padding-top: 26px; 
+    color: rgb(21, 190, 196);
+}
+
+.name input {
+    margin: 3px auto;
+    width: 460px;
+    height: 43px;
+}
+
+.email h5 {
+    margin: 0px auto; 
+    padding-top: 26px;
+    color: rgb(21, 190, 196); 
+}
+
+.email input{
+    margin: 3px auto;
+    width: 471px;
+    height: 43px;
+}
+
+.textarea {
+    margin: 0 auto;
+}
+
+.textarea h5 {
+    margin: 0 auto;
+    text-align: right;
+    padding-top: 18px;
+    font-size: 17px;
+    font-weight: normal;
+    color: rgb(21, 190, 196); 
+}
+
+.textarea textarea {
+    margin: 2px auto;
+    height: 115px;
+    width: 955px;
+}
+
+.btn-botton {
+    background-color: rgb(21, 190, 196);
+    margin-top: 13px;
+    text-transform: uppercase;
+    font-size: 14px;
+    height: 38px;
+    width: 200px;
+    border: none;
+    margin-left: 760px;
+    color: white;
+}
+footer span {
+    display: block;
+    padding-top: 92px;
+    padding-left: 15px;
+
+    font-size: 13px;
+
+}
+
